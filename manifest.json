@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "Global Health Facts",
+  "version": "1.0.0",
+  "description": "Your place for daily global health facts!",
+  "permissions": ["activeTab", "management"],
+  "browser_action": {
+    "default_popup": "index.html"
+  },
+  
+  "icons": {
+    "48": "images/Logo.png"
+  },
+  "permissions": ["storage"]
+  }
